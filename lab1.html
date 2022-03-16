@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <meta charset="utf-8">
+	   <title>f1</title>
+    </head>
+        <body>
+            <center>
+    	        <h2>FORM</h2>
+    	        <form>
+		        <tr>
+			        <td><label for="name">Name:</label></td>
+			        <td><input type="text" name="n1" id="name" placeholder="Enter your name" maxlength="25" required></td>
+	            </tr>
+                <br><br>
+
+		        <tr>
+			        <td><label for="email">Email:</label></td>
+			        <td><input type="email id" id="myEmail" value="test@example.com" required autofocus></td>
+		        </tr>
+		        <br><br>
+
+		        <tr>
+			        <td><label for="pwd">Password:</label></td>
+		            <td><input type="password" id="pwd" name="password" minlength="6" required></td>
+		        </tr> 
+		        <br><br>
+
+		        <tr>
+			        <td><label for="cate">Category:</label></td>
+                        <select name="category" id="category" required>
+		                <option value="student">student</option>
+		                <option value="employee">employee</option>
+		                <option value="freelancer" selected>freelancer</option>
+	                    </select>
+	            </tr>        
+	            <br><br>
+
+	            <tr>
+		            <td><label for="event_date">Event date:</label></td>
+                    <td><input type="date" id="event_date" name="event date" required></td>
+	            </tr>
+	            <br><br>
+
+                <tr>
+        	        <td>Tickets:</td>
+        	        <input type="radio" id="ticket" name="option1" value="1 ticket">
+        	        <label for="ticket">1 Ticket</label>
+        	        <input type="radio" id="ticket" name="option2" value="2 tickets" checked required>
+        	        <label for="ticket">2 Tickets</label>
+        	        <input type="radio" id="ticket" name="option3" value="3 Tickets">
+        	        <label for="ticker">3 Tickets</label>
+                </tr>
+                <br><br>
+
+                <tr>
+     	            <td>Payment:</td>
+     	            <td><input type="checkbox" id="pay" name="payment" value="online payment" required></td>
+     	            <label for="pay">Online Payment</label>
+                </tr>
+                <br><br>
+
+                <tr>
+                    <td><label>Notes:</label></td>
+	                    <textarea id="Notes" name="notes" placeholder="Enter your notes here" rows="5" cols="25" ></textarea>
+                </tr>
+                <br><br>
+
+                    <input type="submit" value="submit"> 
+                </form>    
+            </center>
+        </body>
+</html>
